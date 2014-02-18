@@ -160,7 +160,7 @@ h1 a, h2 a, h3 a, h4 a {
   text-align: center;
   width: 100%;
   background-color: #33342d;
-  margin-top: 40px;
+  margin-top: 0;
   padding-top: 20px;
   padding-bottom: 20px;
 }
