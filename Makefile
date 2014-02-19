@@ -1,4 +1,4 @@
-VERSION=v0.10.26
+VERSION=v`cat STABLE`
 
 website_dirs = \
 	out/doc \
