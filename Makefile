@@ -1,4 +1,4 @@
-VERSION=v0.10.25
+VERSION=v0.10.26
 
 website_dirs = \
 	out/doc \
