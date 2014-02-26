@@ -1,4 +1,4 @@
-VERSION=v0.10.25
+VERSION=v`cat STABLE`
 
 website_dirs = \
 	out/doc \
@@ -50,6 +50,9 @@ blog-upload: blog
 
 website-upload: doc
 	rsync -r out/doc/ node@nodejs.org:~/web/nodejs.org/
+
+release: website-upload blog-upload
+	rsync -r out/doc/ node@nodejs.org:~/web/nodejs.org/dist/$(VERSION)/docs/
 
 docopen: out/doc/api/all.html
 	-google-chrome out/doc/api/all.html
