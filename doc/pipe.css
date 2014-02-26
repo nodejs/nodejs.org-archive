@@ -451,44 +451,6 @@ h1 a, h2 a, h3 a, h4 a {
   line-height: 21px;
 }
 
-#explore {
-  background: url(http://nodejs.org/images/home-icons.png) no-repeat left 17px;
-}
-
-#explore li {
-  font-size: 12px;
-  list-style-type: none;
-  color: #d2d8ba;
-  line-height: 14px;
-  padding: 10px 0 10px 40px;
-  border-top: 1px solid #626557;
-}
-
-#explore li span {
-}
-
-#explore li a.explore {
-  text-transform: uppercase;
-}
-
-#explore ol.jobs {
-  padding: 0;
-}
-
-#explore ol.jobs li {
-  display: inline;
-  padding: 0;
-  border: none;
-}
-
-#explore ol.jobs li:after {
-  content: ', ';
-}
-
-#explore ol.jobs li:last-child:after {
-  content: '';
-}
-
 #footer {
   width: 942px;
   margin: 150px auto 55px auto;
