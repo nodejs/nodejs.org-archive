@@ -145,6 +145,13 @@ h1 a, h2 a, h3 a, h4 a {
   color: #d2d8ba;
 }
 
+.blog #intro {
+  text-align: left;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-left: 230px;
+}
+
 #logo {
   width: 297px;
 }
@@ -259,6 +266,10 @@ h1 a, h2 a, h3 a, h4 a {
 
 .int #content {
   padding-top: 50px;
+}
+
+.blog.int #content {
+  padding-top: 10px;
 }
 
 .int #content {
@@ -591,6 +602,19 @@ a:hover {
 
 .release {
   margin: 0 0 0 2em;
+}
+
+.blog p.prev, .blog p.next {
+  font-size: 14px !important;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+}
+
+.blog p.prev{
+  float: left;
+}
+
+.blog p.next {
+  float: right;
 }
 
 /* simpler clearfix */
