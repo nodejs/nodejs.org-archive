@@ -5,6 +5,7 @@ website_dirs = \
 	out/doc/api/ \
 	out/doc/api/assets \
 	out/doc/about \
+	out/doc/video \
 	out/doc/community \
 	out/doc/download \
 	out/doc/logos \
@@ -23,9 +24,10 @@ website_files = \
 	out/doc/favicon.ico   \
 	out/doc/pipe.css \
 	out/doc/about/index.html \
+	out/doc/video/index.html \
 	out/doc/community/index.html \
 	out/doc/download/index.html \
-	out/doc/logos/index.html \
+	out/doc/resources/index.html \
 	$(doc_images)
 
 doc: $(website_dirs) $(website_files) blog
