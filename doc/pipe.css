@@ -588,6 +588,10 @@ a:hover {
   padding: 0 2px;
 }
 
+.alt#logos #content a {
+  background-color: transparent;
+}
+
 .highlight {
   background: #733;
   padding: 0.2em 0;
