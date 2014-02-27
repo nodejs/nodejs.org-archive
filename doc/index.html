@@ -6,6 +6,8 @@
     <link type="image/x-icon" rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="pipe.css">
     <link rel="stylesheet" href="sh_vim-dark.css">
+    <script type="text/javascript" src="//use.typekit.net/txh0gdd.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     <link rel="alternate"
           type="application/rss+xml"
           title="node blog"
@@ -13,8 +15,22 @@
     <title>node.js</title>
   </head>
   <body id="front">
+    <div id="nav">
+      <ul>
+        <li class="active"><a href="/"><img src="/images/baby-node.svg" width="12"></a></li>
+        <li><a href="/download">Download</a></li>
+        <li><a href="/api">Docs</a></li>
+        <li><a href="http://blog.nodejs.org">Blog</a></li>
+        <li><a href="/community">Community</a></li>
+        <li><a href="http://npmjs.org">Modules</a></li>
+        <li><a href="/resources">Resources</a></li>
+        <li><a href="http://jobs.nodejs.org">Jobs</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+      <a href="http://github.com/joyent/node"><img class="forkme" src="/images/fork-me.png" alt="Fork me on GitHub"></a>
+    </div>
     <div id="intro">
-        <img id="logo" src="http://nodejs.org/images/logo.svg" alt="node.js">
+        <img id="logo" src="/images/logo.svg" alt="node.js">
 
         <p>Node.js is a platform built on <a
         href="http://code.google.com/p/v8/">Chrome's JavaScript runtime</a>
@@ -31,53 +47,13 @@
         <a href="download/" class=button id="all-dl-options">Downloads</a
         ><a href="api/" class="button" id="docsbutton">API Docs</a>
         </div>
-
-        <a href="http://github.com/joyent/node"><img class="forkme" src="http://nodejs.org/images/forkme.png" alt="Fork me on GitHub"></a>
-        <a href="http://www.joyent.com/noderoad" style="display: block; margin-top: 30px; margin-bottom: -6px;"><img src="images/roadshow-promo.png" width="688"></a>
     </div>
 
-    <div id="quotes" class="clearfix">
-        <h2>Node.js in the Industry</h2>
-        <ul>
-            <li class="microsoft"><img src="http://nodejs.org/images/microsoft-logo.png" height=34>
-            <p>Node gives Azure users the first end-to-end JavaScript
-            experience for the development of a whole new class of real-time
-            applications.
-            <br>
-            <a href="https://www.windowsazure.com/en-us/develop/nodejs">Claudio Caldato</a>
-            <br>
-            <span>Principal Program Manager, Microsoft Open Technologies, Inc.</span></p>
-            </li>
-
-            <li class="ebay"><img src="http://nodejs.org/images/ebay-logo.png" height=34>
-            <p>Node’s evented I/O model freed us from worrying about locking
-            and concurrency issues that are common with multithreaded async
-            I/O.
-            <br>
-            <a href="http://www.ebaytechblog.com/2011/11/30/announcing-ql-io/">Subbu Allamarju</a>
-            <br>
-            <span>Principal Member, Technical Staff</span></p></li>
-
-            <li class="linkedin"><img src="http://nodejs.org/images/linkedin-logo.png" height=34>
-            <p>On the server side, our entire mobile software stack is
-            completely built in Node. One reason was scale. The second is
-            Node showed us huge performance gains.
-            <br>
-            <a href="http://venturebeat.com/2011/08/16/linkedin-node/">Kiran Prasad</a>
-            <br>
-            <span>Director of Engineering, Mobile</span></p></li>
-
-            <li class="yahoo"><img src="http://nodejs.org/images/yahoo-logo.png" height=34>
-            <p>Node.js is the execution core of Manhattan. Allowing
-            developers to build one code base using one language – that is
-            the nirvana for developers.
-            <br>
-            <a href="http://developer.yahoo.com/blogs/ydn/posts/2011/11/yahoo-announces-cocktails-%E2%80%93-shaken-not-stirred/">Renaud Waldura</a>
-            <br>
-            <span>Sr. Product Manger, Cocktail</span></p></li>
-        </ul>
+    <div id="promo">
+      <a href="http://www.joyent.com/noderoad"><img src="images/roadshow-promo.png"></a>
     </div>
 
+    <div id="content-wrap">
     <div id="content" class="clearfix">
             <div id="column1">
                 <h2>An example: Webserver</h2>
@@ -109,44 +85,23 @@ var server = net.createServer(function (socket) {
 
 server.listen(1337, '127.0.0.1');</pre>
 
-                <!-- <p>Ready to dig in? <a href="">Download the latest version</a> of node.js or learn how other organizations are <a href="">using the technology</a>.</p> -->
         </div>
-        <div id="column2">
+        <div id="column2" class="featured">
             <h2>Featured</h2>
-            <a href="http://www.youtube.com/watch?v=jo_B4LTHi3I"><img src="http://nodejs.org/images/ryan-speaker.jpg"></a>
-            A guided introduction to Node
-
-            <h2>Explore Node.js</h2>
-            <ul id="explore">
-                <li><a href="about/" class="explore">About</a><br><span>Technical overview</span></li>
-                <li><a href="http://npmjs.org/" class="explore">npm Registry</a><br><span>Modules, resources and more</span></li>
-                <li><a href="http://nodejs.org/api/" class="explore">Documentation</a><br><span>API Specifications</span></li>
-                <li><a href="http://blog.nodejs.org" class="explore">Node.js Blog</a><br><span>Insight, perspective and events</span></li>
-                <li><a href="community/" class="explore">Community</a><br><span>Mailing lists, blogs, and more</span></li>
-                <li><a href="logos/" class="explore">Logos</a><br><span>Logo and desktop background</span></li>
-                <li><a href="http://jobs.nodejs.org/" class="explore">Jobs</a><br><ol class="jobs"><!-- JOBS --><!-- JOBS --></ol></li>
-            </ul>
+            <a href="/video/"><img src="/images/walmart-thumb.jpg" width="263"></a>
+            <h3>Node.js at Walmart</h3>
+            <p>Eran Hammer, Sr. Architect at Walmart, talks about how they use Node.js as a way to reinvent legacy APIs to create modern front end experiences.</p>
+        </div>
     </div>
-</div>
+    </div>
 
     <div id="footer">
-        <a href="http://joyent.com" class="joyent-logo">Joyent</a>
-        <ul class="clearfix">
-            <li><a href="/">Node.js</a></li>
-            <li><a href="/download/">Download</a></li>
-            <li><a href="/about/">About</a></li>
-            <li><a href="http://npmjs.org/">npm Registry</a></li>
-            <li><a href="http://nodejs.org/api/">Docs</a></li>
-            <li><a href="http://blog.nodejs.org">Blog</a></li>
-            <li><a href="/community/">Community</a></li>
-            <li><a href="/logos/">Logos</a></li>
-            <li><a href="http://jobs.nodejs.org/">Jobs</a></li>
-            <!-- <li><a hrfe="http://twitter.com/nodejs" class="twitter">@nodejs</a></li> -->
-        </ul>
-
-        <p>Copyright <a href="http://joyent.com/">Joyent, Inc</a>, Node.js is a <a href="/trademark-policy.pdf">trademark</a> of Joyent, Inc. View <a href="https://raw.github.com/joyent/node/__VERSION__/LICENSE">license</a>.</p>
+      <a href="http://www.joyent.com"><h5>The Node.js Project is Sponsored by</h5>
+      <img src="/images/joyent-footer.svg" width="200">
+      <p>Production Node + High Performance Infrastructure</p></a>
+      <a href="https://my.joyentcloud.com/landing/signup/70180000000ShEu" class="button getstarted">Get Started</a>
+      <p class="copyright">Copyright <a href="http://joyent.com/">Joyent, Inc</a>, Node.js is a <a href="/trademark-policy.pdf">trademark</a> of Joyent, Inc. <a href="https://raw.github.com/joyent/node/__VERSION__/LICENSE">View license</a>.</p>
     </div>
-
 
     <script src="sh_main.js"></script>
     <script src="sh_javascript.min.js"></script>
