@@ -9,6 +9,7 @@ website_dirs = \
 	out/doc/community \
 	out/doc/download \
 	out/doc/logos \
+  out/doc/resources \
 	out/doc/images
 
 doc_images = $(addprefix out/,$(wildcard doc/images/* doc/*.jpg doc/*.png))
