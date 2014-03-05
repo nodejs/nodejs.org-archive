@@ -338,6 +338,10 @@ h1 a, h2 a, h3 a, h4 a {
 #download-page #installers a small {
   font-size: 10px;
   display: block;
+  color: #999;
+}
+
+#download-page #installers a:hover small {
   color: #eee;
 }
 
@@ -350,12 +354,12 @@ h1 a, h2 a, h3 a, h4 a {
   table-collapse: separate;
 }
 
-#download-page #content td,
-#download-page #content th {
-  border: 1px solid #666;
+#download-page #content td {
+  border: 1px solid #ccc;
 }
 
 #download-page #content td a {
+  background: none;
   display: block;
   height: 100%;
   width: 100%;
@@ -412,10 +416,6 @@ h1 a, h2 a, h3 a, h4 a {
 .row {
   padding-top: 10px;
   padding-bottom: 10px;
-}
-
-.row + .row {
-  border-top: 1px solid #626557;
 }
 
 .row h2 {
