@@ -4,7 +4,7 @@ html {
 }
 
 .din {
-  font-family: "din-condensed-web",sans-serif;
+  font-family: "din-condensed-web","Arial Narrow",Arial,sans-serif;
   font-style: normal;
   font-weight: 400;
   text-transform: uppercase;
@@ -57,7 +57,7 @@ h1 {
 }
 
 h2 {
-  font-family: "din-condensed-web",sans-serif;
+  font-family: "din-condensed-web","Arial Narrow",Arial,sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -177,7 +177,7 @@ h1 a, h2 a, h3 a, h4 a {
 }
 
 #intro .button {
-  font-family: "din-condensed-web",sans-serif;
+  font-family: "din-condensed-web","Arial Narrow",Arial,sans-serif;
   font-style: normal;
   font-weight: 400;
   text-transform: uppercase;
@@ -195,9 +195,9 @@ h1 a, h2 a, h3 a, h4 a {
   display: inline-block;
   color: #1b1b1b;
   background-color: rgba(153,153,153,.7);
-  width: 96px;
-  padding-top: 3px;
-  padding-bottom: 3px;
+  width: 106px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 #intro .button:hover {
@@ -211,11 +211,11 @@ h1 a, h2 a, h3 a, h4 a {
 
 #intro .downloadbutton {
   background-color: #80bd01;
-  width: 200px;
+  width: 220px;
   font-size: 30px;
   display: block;
   margin: 30px auto 0px auto;
-  font-family: "din-condensed-web",sans-serif;
+  font-family: "din-condensed-web","Arial Narrow",Arial,sans-serif;
   font-style: normal;
   font-weight: 400;
   text-transform: uppercase;
@@ -473,7 +473,7 @@ h1 a, h2 a, h3 a, h4 a {
 }
 
 #footer h5 {
-  font-family: "din-condensed-web",sans-serif;
+  font-family: "din-condensed-web","Arial Narrow",Arial,sans-serif;
   font-style: normal;
   font-weight: 400;
   text-transform: uppercase;
