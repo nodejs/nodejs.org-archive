@@ -131,10 +131,8 @@ h1 a, h2 a, h3 a, h4 a {
 
 #nav .forkme {
   position: absolute;
-  top: 38px;
   right: 0;
   border: 0;
-  width: 341px;
 }
 
 #intro {
