@@ -87,9 +87,3 @@ Pull requests are usually reviewed within a few days.  If there are comments
 to address, apply your changes in a separate commit and push that to your
 feature branch.  Post a comment in the pull request afterwards; GitHub does
 not send out notifications when you add commits.
-
-
-### CONTRIBUTOR LICENSE AGREEMENT
-
-Please visit http://nodejs.org/cla.html and sign the Contributor License
-Agreement.  You only need to do that once.
