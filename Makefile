@@ -5,6 +5,7 @@ website_dirs = \
 	out/doc/api/ \
 	out/doc/api/assets \
 	out/doc/about \
+	out/doc/security \
 	out/doc/video \
 	out/doc/community \
 	out/doc/download \
@@ -24,6 +25,7 @@ website_files = \
 	out/doc/favicon.ico   \
 	out/doc/pipe.css \
 	out/doc/about/index.html \
+	out/doc/security/index.html \
 	out/doc/video/index.html \
 	out/doc/community/index.html \
 	out/doc/download/index.html \
