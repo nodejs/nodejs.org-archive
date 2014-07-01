@@ -7,6 +7,8 @@ website_dirs = \
 	out/doc \
 	out/doc/api/ \
 	out/doc/api/assets \
+	out/doc/about \
+	out/doc/security \
 	out/doc/video \
 	out/doc/download \
 	out/doc/logos \
@@ -28,6 +30,8 @@ website_files = \
 	out/doc/sh.css \
 	out/doc/favicon.ico   \
 	out/doc/pipe.css \
+	out/doc/about/index.html \
+	out/doc/security/index.html \
 	out/doc/video/index.html \
 	out/doc/download/index.html \
 	$(generated_files) \
