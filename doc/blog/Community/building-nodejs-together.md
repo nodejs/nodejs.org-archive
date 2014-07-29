@@ -2,7 +2,7 @@ title: Building Node.js Together
 author: tjfontaine
 date: Tue July 29 2014 14:00:00 GMT-0700 (PDT)
 status: publish
-category: Uncategorized
+category: Community
 slug: building-nodejs-together
 
 Node.js is reaching more people than ever, it's attracting new and interesting
