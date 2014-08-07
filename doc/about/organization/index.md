@@ -59,7 +59,7 @@ be a team member currently assigned to the task, leaving it open is ok as
 someone in the community may come along and decide to help us.
 
 Discussions on issues should be civil and empathetic towards the reporter and
-community participating in them. The reporter has taken the time to inform of
+community participating in them. The reporter has taken the time to inform
 us of what they believe to be a deficiency in Node.js and even if we may not
 always agree, we should still treat each other with respect.
 
