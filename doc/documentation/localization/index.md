@@ -31,3 +31,4 @@ localized sites here:
  * [Taiwan community](http://nodejs.tw)
  * [Node.js in Turkish](http://www.nodejstr.com/)
  * [Node.js in Vietnamese](http://nodejs.vn/)
+ * [Nicaragua Node.js community](http://nodenica.com/)
