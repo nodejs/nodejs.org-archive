@@ -7,14 +7,14 @@
 <table border="0" cellspacing="0" cellpadding="10" class="logos">
   <tr>
     <td bgcolor="#FFFFFF">[![Node.js dark](/images/logos/nodejs.png)](/images/logos/nodejs-light.eps)</td>
-    <td bgcolor="#46483E">[![Node.js dark](/images/logos/nodejs-dark.png)](/images/logos/nodejs-dark.eps)</td>
+    <td bgcolor="#333333">[![Node.js dark](/images/logos/nodejs-dark.png)](/images/logos/nodejs-dark.eps)</td>
   </tr>
   <tr>
     <td>[Node.js standard EPS](/images/logos/nodejs-light.eps)</td>
     <td>[Node.js reversed EPS](/images/logos/nodejs-dark.eps)</td>
   </tr>
   <tr>
-    <td bgcolor="#8BC84B">[![Node.js dark](/images/logos/nodejs-green.png)](/images/logos/nodejs-green.eps)[](/images/logos/nodejs-dark.eps)</td>
+    <td bgcolor="#7fbd42">[![Node.js dark](/images/logos/nodejs-green.png)](/images/logos/nodejs-green.eps)[](/images/logos/nodejs-dark.eps)</td>
     <td bgcolor="#ffffff">[![Node.js dark](/images/logos/nodejs-black.png)](/images/logos/nodejs-black.eps)</td>
   </tr>
   <tr>
