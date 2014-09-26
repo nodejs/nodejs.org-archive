@@ -61,6 +61,9 @@ $(blog_dirs):
 out/doc/%.html: doc/%.html
 	cat $< | sed -e 's|__VERSION__|'$(VERSION)'|g' > $@
 
+out/doc/main.js: doc/main.js
+	cat $< | sed -e 's|__VERSION__|'$(VERSION)'|g' > $@
+
 out/doc/%: doc/%
 	cp -r $< $@
 
