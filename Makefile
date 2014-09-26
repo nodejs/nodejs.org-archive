@@ -5,8 +5,6 @@ generated_files = $(addprefix out/,$(patsubst %.md,%.html,$(generated_files1)))
 
 website_dirs = \
 	out/doc \
-	out/doc/api/ \
-	out/doc/api/assets \
 	out/doc/video \
 	out/doc/download \
 	out/doc/logos \
