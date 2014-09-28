@@ -886,3 +886,7 @@ table.logos td.jstm img {
   margin-bottom: 0;
   padding-bottom: 0;
 }
+
+table.logos img {
+  max-width: 212px;
+}
