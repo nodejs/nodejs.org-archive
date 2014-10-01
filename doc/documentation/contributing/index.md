@@ -41,7 +41,7 @@ for your contribution to be accepted you will need to have configured the email
 address and real name. You will also need to have [created an ssh
 key](https://help.github.com/articles/generating-ssh-keys) and associated it
 with your [GitHub
-Accout](https://help.github.com/articles/signing-up-for-a-new-github-account).
+Account](https://help.github.com/articles/signing-up-for-a-new-github-account).
 
 ### Fork
 
