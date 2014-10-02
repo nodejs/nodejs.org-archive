@@ -93,12 +93,10 @@
     <script>
       $(document).ready(function() {
         $('#nav a[href^="/' + location.pathname.split("/")[1] + '"]').parent().closest('li').addClass('active');
-        $(function() {
-          $('.docs-nav a').each(function() {
-            if ($(this).attr("href") == window.location.pathname) {
-              $(this).parent().closest('li').addClass('active');
-            }
-          });
+        $('.docs-nav a').each(function() {
+          if ($(this).attr("href") == window.location.pathname) {
+            $(this).parent().closest('li').addClass('active');
+          }
         });
       });
       window._gaq = [['_setAccount', 'UA-10874194-2'], ['_trackPageview']];
