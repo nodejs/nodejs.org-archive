@@ -5,7 +5,7 @@ documentation means different things to different people. Here on nodejs.org
 you will find three types of documentation, reference documentation, getting
 started documentation, and tutorials.
 
-Our [API reference documentation](/documentation/api/) is meant to provide detailed version
+Our [API reference documentation](/api/) is meant to provide detailed version
 information about a given method or pattern in Node.js. From this documentation
 you should be able to identify what input a method has, the return value of
 that method, and what if any errors may be related to method. You should also
