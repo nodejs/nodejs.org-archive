@@ -12,7 +12,7 @@
     - Binary Addon Layer
     - User Defined Tracing
 
-### Alexis Campilla ([orangemocha](https://github.com/orangemocha))
+### Alexis Campailla ([orangemocha](https://github.com/orangemocha))
 
  * Employed by [MSOpenTech](http://msopentech.com)
  * Full-Time
