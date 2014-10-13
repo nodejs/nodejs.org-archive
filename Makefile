@@ -1,10 +1,10 @@
 VERSION=v`cat STABLE`
+NODE_WEBSITE_PORT ?= 8080
 
 generated_files1 = $(shell find doc -type f -name \*.md | grep -v blog | xargs)
 generated_files = $(addprefix out/,$(patsubst %.md,%.html,$(generated_files1)))
 
 website_dirs = \
-	out/doc \
 	out/doc/video \
 	out/doc/download \
 	out/doc/logos \
@@ -83,6 +83,14 @@ docopen: out/doc/api/all.html
 docclean:
 	-rm -rf out/doc
 
-clean: docclean
+test: doc
+	open http://localhost:${NODE_WEBSITE_PORT}
+	node tools/server/server.js
+
+test-blog: blog
+	open http://localhost:${NODE_WEBSITE_PORT}
+	node tools/server/server.js blog
+
+clean: docclean blogclean
 
 .PHONY: clean docopen docclean doc all website-upload blog blogclean
