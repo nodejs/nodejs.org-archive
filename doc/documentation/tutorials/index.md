@@ -8,6 +8,6 @@ creating your own curriculum.
 
 NodeSchool is fantastic not just because it helps members of the communtiy to
 learn about Node and its ecosystem, but because they provide a framework that
-can be replciated in your own community to train your members. They provide
+can be replicated in your own community to train your members. They provide
 these resources free of charge and open source to make it easy for anyone to
 run their own [NodeSchool event](http://nodeschool.io/host.html).
