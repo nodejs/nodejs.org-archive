@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link type="image/x-icon" rel="icon" href="../favicon.ico">
+    <link type="image/x-icon" rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="/pipe.css">
+    <link rel="stylesheet" href="/sh_vim-dark.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//use.typekit.net/mse5tqx.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <link rel="alternate"
+          type="application/rss+xml"
+          title="node blog"
+          href="http://feeds.feedburner.com/nodejs/123123123">
+    <title>__TITLE__ | node.js</title>
+  </head>
+
+  <body class="int alt" id="docs">
+    <div id="nav">
+      <img id="logo" src="/images/logo.svg" alt="node.js">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/download/">Downloads</a></li>
+        <li><a href="/documentation/">Docs</a></li>
+        <li><a href="/community/">Community</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="http://jobs.nodejs.org">Jobs</a></li>
+        <li><a href="http://blog.nodejs.org">Blog</a></li>
+      </ul>
+    </div>
+
+    <div id="content-wrap">
+    <div id="content" class="clearfix">
+      <div id="column2" class="interior">
+        <!--<img src="/images/logo-light.svg" alt="node.js" width="170">-->
+        <ul class="docs-nav">
+          <li><a href="/documentation/">About Docs</a></li>
+          <li><a href="/documentation/tutorials/">Tutorials</a></li>
+          <li><a href="/documentation/contributing/">Contributing</a></li>
+          <li><a href="/documentation/localization/">Localization</a></li>
+          <li><a href="/api/">API Docs</a></li>
+        </ul>
+      </div>
+      <div id="column1" class="interior">
+        __CONTENT__
+      </div>
+    </div>
+    </div>
+
+    <div id="footer">
+      <div class="foot-1">
+        <a href="http://www.joyent.com"><h5>The Node.js Project is Sponsored by</h5>
+        <img src="/images/joyent-footer.svg" width="200">
+        <p class="tag">Production Node +<br>High Performance Infrastructure</p></a>
+        <a href="https://my.joyent.com/landing/signup/701800000015696" class="button getstarted">Get Started</a>
+      </div>
+      <div class="foot-2">
+        <div class="foot-nav">
+          <ul>
+            <li><a href="http://nodejs.org/download/">Downloads</a></li>
+          </ul>
+          <ul>
+            <li><a href="http://nodejs.org/documentation/">Documentation</a></li>
+            <li><a href="http://nodejs.org/api/">API Docs</a></li>
+            <li><a href="http://nodejs.org/documentation/tutorials/">Tutorials</a></li>
+            <li><a href="http://nodejs.org/documentation/localization/">Localization</a></li>
+          </ul>
+          <ul>
+            <li><a href="http://nodejs.org/community/">Community</a></li>
+            <li><a href="https://github.com/joyent/node/issues">Github Issues</a></li>
+            <li><a href="http://groups.google.com/group/nodejs">Mailing List</a></li>
+            <li><a href="http://webchat.freenode.net/?channels=node.js">IRC</a></li>
+            <li><a href="https://twitter.com/nodejs">Twitter</a></li>
+          </ul>
+          <ul>
+            <li><a href="http://nodejs.org/about/">About</a></li>
+            <li><a href="http://nodejs.org/about/organization/">Organization</a></li>
+            <li><a href="http://nodejs.org/about/core-team/">Core Team</a></li>
+            <li><a href="http://nodejs.org/about/resources/">Resources</a></li>
+          </ul>
+          <ul>
+            <li><a href="http://blog.nodejs.org">Blog</a></li>
+          </ul>
+        </div>
+        <p class="copyright">Copyright 2014 <a href="http://joyent.com/">Joyent, Inc</a>, Node.js is a <a href="/images/trademark-policy.pdf">trademark</a> of Joyent, Inc. <a href="https://raw.github.com/joyent/node/__VERSION__/LICENSE">View license</a>.</p>
+      </div>
+    </div>
+
+    <script src="/sh_main.js"></script>
+    <script src="/sh_javascript.min.js"></script>
+    <script>highlight(undefined, undefined, 'pre');</script>
+
+    <script>
+      $(document).ready(function() {
+        $('#nav a[href^="/' + location.pathname.split("/")[1] + '"]').parent().closest('li').addClass('active');
+        $('.docs-nav a').each(function() {
+          if ($(this).attr("href") == window.location.pathname) {
+            $(this).parent().closest('li').addClass('active');
+          }
+        });
+      });
+    </script>
+    <script src="/tracking.js"></script>
+    <script src="/main.js"></script>
+  </body>
+</html>

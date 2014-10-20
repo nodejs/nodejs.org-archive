@@ -3,8 +3,10 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="http://nodejs.org/pipe.css">
-  <link rel="stylesheet" href="http://nodejs.org/sh_vim-dark.css">
+  <link rel="stylesheet" href="/pipe.css">
+  <link rel="stylesheet" href="/sh_vim-dark.css">
+  <script type="text/javascript" src="//use.typekit.net/mse5tqx.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <title><%= title || "Node.js Blog" %></title>
   <link rel="alternate" type="application/rss+xml"
     title="Node.js Blog RSS"
@@ -13,30 +15,26 @@
     %>">
 </head>
 
-<body class="int blog" id="<%= pageid %>">
-    <div id="nav">
-      <ul>
-        <li><a href="http://nodejs.org"><img src="http://nodejs.org/images/baby-node.svg" width="12"></a></li>
-        <li><a href="http://nodejs.org/download">Download</a></li>
-        <li><a href="http://nodejs.org/api">Docs</a></li>
-        <li class="active"><a href="http://blog.nodejs.org">Blog</a></li>
-        <li><a href="http://nodejs.org/community">Community</a></li>
-        <li><a href="http://npmjs.org">Modules</a></li>
-        <li><a href="http://nodejs.org/resources">Resources</a></li>
-        <li><a href="http://jobs.nodejs.org">Jobs</a></li>
-        <li><a href="http://nodejs.org/about">About</a></li>
-      </ul>
-    </div>
-  <div id="intro">
-    <img src="http://nodejs.org/images/logo.svg" width="300" class="logo">
+<body class="blog alt" id="<%= pageid %>">
+  <div id="nav">
+    <img id="logo" src="/images/logo.svg" alt="node.js">
+    <ul>
+      <li><a href="http://nodejs.org/">Home</a></li>
+      <li><a href="http://nodejs.org/download/">Downloads</a></li>
+      <li><a href="http://nodejs.org/documentation/">Docs</a></li>
+      <li><a href="http://nodejs.org/community/">Community</a></li>
+      <li><a href="http://nodejs.org/about/">About</a></li>
+      <li><a href="http://jobs.nodejs.org">Jobs</a></li>
+      <li class="active"><a href="http://blog.nodejs.org">Blog</a></li>
+    </ul>
   </div>
   <div id="content-wrap">
   <div id="content" class="clearfix">
     <div id="column1" class="interior">
-      <h1><%- title %></h1>
       <% if (typeof post !== 'undefined') {
         // just one post on this page
         %>
+        <h1><%- title %></h1>
         <p class="meta"><%-
           post.date.toUTCString().replace(/ GMT$/, '') + ' UTC' +
           (post.author ? ' - ' + post.author : '') +
@@ -139,24 +137,47 @@
   </div>
 
   <div id="footer">
-    <a href="http://www.joyent.com"><h5>The Node.js Project is Sponsored by</h5>
-    <img src="http://nodejs.org/images/joyent-footer.svg" width="200">
-    <p>Production Node + High Performance Infrastructure</p></a>
-    <a href="https://my.joyentcloud.com/landing/signup/70180000000ShEu" class="button getstarted">Get Started</a>
-    <p class="copyright">Copyright <a href="http://joyent.com/">Joyent, Inc</a>, Node.js is a <a href="/trademark-policy.pdf">trademark</a> of Joyent, Inc. <a href="https://raw.github.com/joyent/node/__VERSION__/LICENSE">View license</a>.</p>
+    <div class="foot-1">
+      <a href="http://www.joyent.com"><h5>The Node.js Project is Sponsored by</h5>
+      <img src="/images/joyent-footer.svg" width="200">
+      <p class="tag">Production Node +<br>High Performance Infrastructure</p></a>
+      <a href="https://my.joyent.com/landing/signup/701800000015696" class="button getstarted">Get Started</a>
+    </div>
+    <div class="foot-2">
+      <div class="foot-nav">
+        <ul>
+          <li><a href="http://nodejs.org/download/">Downloads</a></li>
+        </ul>
+        <ul>
+          <li><a href="http://nodejs.org/documentation/">Documentation</a></li>
+          <li><a href="http://nodejs.org/api/">API Docs</a></li>
+          <li><a href="http://nodejs.org/documentation/tutorials/">Tutorials</a></li>
+          <li><a href="http://nodejs.org/documentation/localization/">Localization</a></li>
+        </ul>
+        <ul>
+          <li><a href="http://nodejs.org/community/">Community</a></li>
+          <li><a href="https://github.com/joyent/node/issues">Github Issues</a></li>
+          <li><a href="http://groups.google.com/group/nodejs">Mailing List</a></li>
+          <li><a href="http://webchat.freenode.net/?channels=node.js">IRC</a></li>
+          <li><a href="https://twitter.com/nodejs">Twitter</a></li>
+        </ul>
+        <ul>
+          <li><a href="http://nodejs.org/about/">About</a></li>
+          <li><a href="http://nodejs.org/about/organization/">Organization</a></li>
+          <li><a href="http://nodejs.org/about/core-team/">Core Team</a></li>
+          <li><a href="http://nodejs.org/about/resources/">Resources</a></li>
+        </ul>
+        <ul>
+          <li><a href="http://blog.nodejs.org">Blog</a></li>
+        </ul>
+      </div>
+      <p class="copyright">Copyright 2014 <a href="http://joyent.com/">Joyent, Inc</a>, Node.js is a <a href="/images/trademark-policy.pdf">trademark</a> of Joyent, Inc. <a href="https://raw.github.com/joyent/node/__VERSION__/LICENSE">View license</a>.</p>
+    </div>
   </div>
 
-  <script src="../sh_main.js"></script>
-  <script src="../sh_javascript.min.js"></script>
+  <script src="/sh_main.js"></script>
+  <script src="/sh_javascript.min.js"></script>
   <script>highlight(undefined, undefined, 'pre');</script>
-  <script>
-    window._gaq = [['_setAccount', 'UA-10874194-2'], ['_trackPageview']];
-    (function(d, t) {
-      var g = d.createElement(t),
-          s = d.getElementsByTagName(t)[0];
-      g.src = '//www.google-analytics.com/ga.js';
-      s.parentNode.insertBefore(g, s);
-    }(document, 'script'));
-  </script>
+  <script src="/tracking.js"></script>
 </body>
 </html>
