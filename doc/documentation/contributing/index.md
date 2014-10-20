@@ -24,7 +24,7 @@ information:
 
 If you have identified an issue or feature that you want to supply the fix for
 there are a few steps that you will need to follow. There will be a lot of
-interaction with [Git](http://en.wikipedia.org/wiki/Git_(software)), if you
+interaction with [Git](http://en.wikipedia.org/wiki/Git_%28software%29), if you
 want to become more familiar with it consider reading through the freely
 available [git-scm book](http://git-scm.com/book).
 
