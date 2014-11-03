@@ -151,7 +151,7 @@ interested parties and invited experts as appropriate.
 
 Any outside party wishing to bring an issue before the Node.js Advisory Board
 may do so by emailing the Node.js Advisory Board at
-[nodeadvisoryboard@joyent.com](mailto:nodeadvisoryboard@joyent.com).
+[advisoryboard@nodejs.org](mailto:advisoryboard@nodejs.org).
 
 ### 6.3
 
@@ -210,4 +210,4 @@ Board position.  Read more about the announcement
 [https://www.joyent.com/blog/node-js-advisory-board](https://www.joyent.com/blog/node-js-advisory-board).
 
 Please help us improve this draft by sending your comments and feedback to
-[nodegovernance@joyent.com](mailto:nodegovernance@joyent.com).
+[governance@nodejs.org](mailto:governance@nodejs.org).
