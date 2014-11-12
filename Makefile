@@ -1,7 +1,7 @@
 VERSION=v`cat STABLE`
 NODE_WEBSITE_PORT ?= 8080
 
-generated_files1 = $(shell find doc -type f -name \*.md | grep -v blog | xargs)
+generated_files1 = $(shell find doc -follow -type f -name \*.md | grep -v blog | xargs)
 generated_files = $(addprefix out/,$(patsubst %.md,%.html,$(generated_files1)))
 
 website_dirs = \
@@ -45,6 +45,8 @@ blog: doc/blog tools/blog $(blog_dirs) $(blog_files)
 	node tools/blog/generate.js doc/blog/ out/blog/ doc/blog.html doc/rss.xml
 
 website: $(website_dirs) $(website_files)
+	echo "Make sure to clone the advisory-board repository into doc/advisory-board"
+	stat doc/advisory-board > /dev/null
 
 out/doc/%.html: doc/%.md
 	mkdir -p $(shell dirname $@)
