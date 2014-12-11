@@ -26,6 +26,8 @@ An <a href="http://nodejsconf.it/">Italian Node.js
 <a href="http://jsconf.com/">JSConf</a> organizes the main
   JavaScript conferences.
 
+<a href="http://oneshot.risingstack.com/">One-Shot Budapest</a> is a one day single track speaker series presented by NodeConf.
+
 ## Discussion
 
 The [mailing list](http://groups.google.com/group/nodejs) is used for
