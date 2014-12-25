@@ -76,7 +76,7 @@ blog-upload: blog
 website-upload: doc
 	rsync -r out/doc/ node@nodejs.org:~/web/nodejs.org/
 
-release: website-upload blog-upload
+release: clean website-upload blog-upload
 	rsync -r out/doc/ node@nodejs.org:~/web/nodejs.org/dist/$(VERSION)/docs/
 
 docopen: out/doc/api/all.html
