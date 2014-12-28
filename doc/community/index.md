@@ -26,6 +26,9 @@ An <a href="http://nodejsconf.it/">Italian Node.js
 <a href="http://jsconf.com/">JSConf</a> organizes the main
   JavaScript conferences.
 
+<a href="http://oneshot.nodeconf.com/">NodeConf ONE-SHOT</a> are
+  forkable conferences for a local communities
+
 ## Discussion
 
 The [mailing list](http://groups.google.com/group/nodejs) is used for
