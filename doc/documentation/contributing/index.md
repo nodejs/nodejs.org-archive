@@ -28,7 +28,7 @@ interaction with [Git](http://en.wikipedia.org/wiki/Git_%28software%29), if you
 want to become more familiar with it consider reading through the freely
 available [git-scm book](http://git-scm.com/book).
 
-This also all revolves around the concept of the Pull Request on GitHub, so you
+This also all revolves around the concept of the Pull Request on GitHub, so
 read through their
 [documentation](https://help.github.com/articles/using-pull-requests) if you
 need further guidance.
