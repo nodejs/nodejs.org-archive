@@ -17,6 +17,9 @@ blog_dirs = $(patsubst out/doc/%,out/blog/%,$(website_dirs))
 blog_assets = $(patsubst out/doc/%,out/blog/%,$(website_assets))
 blog_images = $(patsubst out/doc/%,out/blog/%,$(doc_images))
 
+advisory_board:
+	svn checkout https://github.com/joyent/nodejs-advisory-board/trunk/meetings ./doc/advisory-board
+
 website_files = \
 	out/doc/index.html    \
 	out/doc/v0.4_announcement.html   \
@@ -45,7 +48,7 @@ blog: doc/blog tools/blog $(blog_dirs) $(blog_files)
 	node tools/blog/generate.js doc/blog/ out/blog/ doc/blog.html doc/rss.xml
 
 website: $(website_dirs) $(website_files)
-	echo "Make sure to clone the advisory-board repository into doc/advisory-board"
+	echo "Make sure to clone the advisory-board repository into doc/advisory-board (tip: use make advisory_board)."
 	stat doc/advisory-board > /dev/null
 
 out/doc/%.html: doc/%.md
