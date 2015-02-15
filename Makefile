@@ -1,6 +1,9 @@
 VERSION=v`cat STABLE`
 NODE_WEBSITE_PORT ?= 8080
 
+REMOTE_SHA = $(shell git ls-remote git@github.com:joyent/node-website.git | awk '/master/ {print $$1}')
+LOCAL_SHA = $(shell git rev-parse HEAD)
+
 generated_files1 = $(shell find doc -follow -type f -name \*.md | grep -v blog | xargs)
 generated_files = $(addprefix out/,$(patsubst %.md,%.html,$(generated_files1)))
 
@@ -76,7 +79,7 @@ blog-upload: blog
 website-upload: doc
 	rsync -r out/doc/ node@nodejs.org:~/web/nodejs.org/
 
-release: clean website-upload blog-upload
+release: predeploycheck clean website-upload blog-upload
 	rsync -r out/doc/ node@nodejs.org:~/web/nodejs.org/dist/$(VERSION)/docs/
 
 docopen: out/doc/api/all.html
@@ -84,6 +87,12 @@ docopen: out/doc/api/all.html
 
 docclean:
 	-rm -rf out/doc
+
+predeploycheck:
+ifneq ($(REMOTE_SHA),$(LOCAL_SHA))
+	@echo "remote repository and local repository not up to date... please pull latest master"
+	exit 1
+endif
 
 test: doc
 	open http://localhost:${NODE_WEBSITE_PORT}
@@ -95,4 +104,4 @@ test-blog: blog
 
 clean: docclean blogclean
 
-.PHONY: clean docopen docclean doc all website-upload blog blogclean
+.PHONY: clean docopen docclean doc all website-upload blog blogclean predeploycheck
