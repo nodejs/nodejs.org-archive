@@ -1,5 +1,7 @@
 # Core team meetings
 
+* 2015-02-26
+  - [Minutes](2015-02-26/minutes.html)
 * 2015-02-19
   - [Minutes](2015-02-19/minutes.html)
 * 2015-02-09 (Node Summit technical roadmap)
