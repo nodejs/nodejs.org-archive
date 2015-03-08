@@ -53,7 +53,7 @@ website: $(website_dirs) $(website_files)
 
 out/doc/%.html: doc/%.md
 	mkdir -p $(shell dirname $@)
-	node tools/doc/generate.js --format=html --template=doc/website.html $< > $@
+	node-doc-generator --format=html --template=doc/website.html $< > $@
 
 $(website_dirs):
 	mkdir -p $@
