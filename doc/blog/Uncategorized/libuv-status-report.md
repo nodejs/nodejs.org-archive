@@ -5,7 +5,7 @@ status: publish
 category: Uncategorized
 slug: libuv-status-report
 
-We <a href="http://blog.nodejs.org/2011/06/23/porting-node-to-windows-with-microsoft%E2%80%99s-help/">announced</a> back in July that with Microsoft's support Joyent would be porting Node to Windows. This effort is ongoing but I thought it would be nice to make a status report post about the new platform library <code><a href="https://github.com/joyent/libuv">libuv</a></code> which has resulted from porting Node to Windows.
+We <a href="http://blog.nodejs.org/2011/06/23/porting-node-to-windows-with-microsoft%E2%80%99s-help/">announced</a> back in July that with Microsoft's support Joyent would be porting Node to Windows. This effort is ongoing but I thought it would be nice to make a status report post about the new platform library <code><a href="https://github.com/libuv/libuv">libuv</a></code> which has resulted from porting Node to Windows.
 
 <code>libuv</code>'s purpose is to abstract platform-dependent code in Node into one place where it can be tested for correctness and performance before bindings to V8 are added. Since Node is totally non-blocking, <code>libuv</code> turns out to be a rather useful library itself: a BSD-licensed, minimal, high-performance, cross-platform networking library.
 
@@ -30,7 +30,7 @@ The features we are working on still are
 	<li>VT100 TTY <code>uv_tty_t</code></li>
 	<li>Socket sharing between processes <code>uv_ipc_t (<a href="https://gist.github.com/1233593">planned API</a>)</code></li>
 </ul>
-For complete documentation see the header file: <a href="https://github.com/joyent/libuv/blob/03d0c57ea216abd611286ff1e58d4e344a459f76/include/uv.h">include/uv.h</a>. There are a number of tests in <a href="https://github.com/joyent/libuv/tree/3ca382be741ec6ce6a001f0db04d6375af8cd642/test">the test directory</a> which demonstrate the API.
+For complete documentation see the header file: <a href="https://github.com/libuv/libuv/blob/03d0c57ea216abd611286ff1e58d4e344a459f76/include/uv.h">include/uv.h</a>. There are a number of tests in <a href="https://github.com/libuv/libuv/tree/3ca382be741ec6ce6a001f0db04d6375af8cd642/test">the test directory</a> which demonstrate the API.
 
 <code>libuv</code> supports Microsoft Windows operating systems since Windows XP SP2. It can be built with either Visual Studio or MinGW. Solaris 121 and later using GCC toolchain. Linux 2.6 or better using the GCC toolchain. Macinotsh Darwin using the GCC or XCode toolchain. It is known to work on the BSDs but we do not check the build regularly.
 
