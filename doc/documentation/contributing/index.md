@@ -55,7 +55,6 @@ fork and contribute to.
 
  * [Node.js](https://github.com/joyent/node)
  * [Node.js Website](https://github.com/joyent/node-website)
- * [libuv](https://github.com/joyent/libuv)
  * [http-parser](https://github.com/joyent/http-parser)
 
 Once you have forked the project on GitHub, then you'll need to clone and
