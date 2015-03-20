@@ -169,7 +169,7 @@ repository and branch they're permanent.
 
 It's possible that while working on your changes, other changes may be
 committed and pushed upstream that will influence and even potentially conflict
-with your existing changes. It's often necessary to rebase your changes agaisnt
+with your existing changes. It's often necessary to rebase your changes against
 the current state of the upstream repository such that your changes can be
 integrated more easily.
 
