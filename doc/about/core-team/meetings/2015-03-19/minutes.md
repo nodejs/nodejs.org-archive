@@ -69,7 +69,7 @@ There was some discussion about the best approach and inthe end we agreed
 the existing fix is appropriate and we should just backport it to 0.12.2
 
 #### Testing release candidates
-Julien is talking wtih some groups about doing some pre-release testing on 
+Julien is talking with some groups about doing some pre-release testing on 
 release candidates.  TJ suggested we should ask for volunteers on the blog
 or twitter. It will need to be a full blown release candiate due to gyp
 dependencies etc.  Julien will write up a proposal.
