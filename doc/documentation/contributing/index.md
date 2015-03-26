@@ -3,6 +3,14 @@
 Thanks for your interest in contributing to Node.js, there are multiple ways
 and places you can contribute and we're here to help facilitate that.
 
+## Understanding the workflow of contributions
+
+The workflow currently used by all Node.js contributors is documented in [a
+separate document](/documentation/workflow). In that document, you'll find
+more information on how contributors determine how to maximize their impact on
+the project. Please, read that document first, especially the sections about
+[how to pick what to work on next](/documentation/workflow/#index_md_how_to_pick_what_to_work_on_next).
+
 ## Reporting an Issue
 
 If you have found what you believe to be an issue with Node.js please do not
