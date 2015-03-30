@@ -89,6 +89,7 @@ docclean:
 	-rm -rf out/doc
 
 predeploycheck:
+	@npm i
 ifneq ($(REMOTE_SHA),$(LOCAL_SHA))
 	@echo "remote repository and local repository not up to date... please pull latest master"
 	exit 1
