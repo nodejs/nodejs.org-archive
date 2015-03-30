@@ -890,3 +890,8 @@ table.logos td.jstm img {
 table.logos img {
   max-width: 212px;
 }
+
+table.addldownloads {
+  font-size:14px;
+  text-align: center
+}
