@@ -139,7 +139,7 @@ branch can be used as a release candidate.
 Alexis Campailla: I've been doing some work to be able to build/test code from
 any GitHub pull request.
 
-## Alexis Campailla: Funning benchmarks for Windows.
+## Alexis Campailla: Running benchmarks for Windows.
 
 Julien: Tracking benchmarks results accross every commit would be very useful
 to identify the causes of performance regressions.
