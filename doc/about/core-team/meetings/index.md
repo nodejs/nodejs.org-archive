@@ -1,5 +1,7 @@
 # Core team meetings
 
+* 2015-04-16
+  - [Minutes](2015-04-16/minutes.html)
 * 2015-04-09
   - [Minutes](2015-04-09/minutes.html)
 * 2015-03-26
