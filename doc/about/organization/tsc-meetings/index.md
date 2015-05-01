@@ -1,4 +1,4 @@
-# Core team meetings
+# Technical Steering Committee meetings
 
 * 2015-04-30
   - [Minutes](2015-04-30/minutes.html)

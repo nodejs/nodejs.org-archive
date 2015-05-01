@@ -1,6 +1,11 @@
 # We encourage any and all styles of contribution from the community.
 
-The Node.js community is large, inclusive, and excited to enable as many users to contribute in whatever what they can.  If you want to [report an issue](https://github.com/joyent/node/issues), [help with documentation](/documentation/contributing/) or [contribute to the code base](/documentation/contributing/) of the project, you’ve come to the right place. Explore our community resources to find out how you can help:
+The Node.js community is large, inclusive, and excited to enable as many users
+to contribute in whatever what they can.  If you want to [report an
+issue](https://github.com/joyent/node/issues), [help with
+documentation](/contribute/) or [contribute to the code
+base](/contribute/code_contributions/) of the project, you’ve come to the
+right place. Explore our community resources to find out how you can help:
 
 <hr>
 
@@ -81,7 +86,7 @@ discussion regarding core development occurs.
 
 If you are interested in contributing to Node.js, please first read the
 [contribution
-guide](/documentation/contributing/).
+guide](/documentation/contribute/).
 
 nodejs.org does not maintain any translations into
 other languages. However [there are community websites](/documentation/localization/) in various

@@ -1,32 +1,14 @@
-# Contributing
+# Code contributions
 
-Thanks for your interest in contributing to Node.js, there are multiple ways
-and places you can contribute and we're here to help facilitate that.
+## Identifiying bugs to fix and features to contribute
 
-## Understanding the workflow of contributions
-
-The workflow currently used by all Node.js contributors is documented in [a
-separate document](/documentation/workflow). In that document, you'll find
-more information on how contributors determine how to maximize their impact on
-the project. Please, read that document first, especially the sections about
-[how to pick what to work on next](/documentation/workflow/#index_md_how_to_pick_what_to_work_on_next).
-
-## Reporting an Issue
-
-If you have found what you believe to be an issue with Node.js please do not
-hesistate to file an issue on the GitHub project. When filing your issue please
-make sure you can express the issue with a reproducible test case, and that
-test case should not include any external dependencies. That is to say, the
-test case can be executed without anything more than Node.js itself.
-
-When reporting an issue we also need as much information about your environment
-that you can include. We never know what information will be pertinent when
-trying narrow down the issue. Please include at least the following
-information:
-
- * Version of Node
- * Platform you're running on (OS X, SunOS, Linux, Windows)
- * Architecture you're running on (32bit or 64bit and x86 or ARM)
+If you have not yet identified a bug to fix or a feature to add but you would
+like to contribute code, please familiarize yourself with [the worklow used by
+all collaborators of the project](workflow.html). Among other things, it
+contains some information on [how to pick bugs to
+fix](workflow.html#workflow_md_picking_issues_to_fix), [pull requests to
+review](workflow.html#workflow_md_picking_pull_requests_to_review) and [issues
+to triage](workflow.html#workflow_md_picking_issues_to_triage).
 
 ## Contributing a Feature or Fix
 
