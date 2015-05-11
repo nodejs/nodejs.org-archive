@@ -9,7 +9,7 @@ In February, we announced the [Node.js
 Foundation](https://www.joyent.com/blog/introducing-the-nodejs-foundation),
 which will steward Node.js moving forward and open its future up to the
 community in a fashion that has not been available before. Organizations like
-IBM, SAP, Apigee, F5, Fidelity, Microsoft, Paypal, Redhat, and others are
+IBM, SAP, Apigee, F5, Fidelity, Microsoft, PayPal, Red Hat, and others are
 sponsoring the Foundation, and they’re adding more contributors to the project.
 The mission of the Foundation is to accelerate the adoption of Node and ensure
 that the project is driven by the community under a transparent, open governance
