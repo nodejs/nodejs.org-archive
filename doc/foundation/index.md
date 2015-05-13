@@ -9,6 +9,7 @@ The Node.js Foundation's mission is to enable widespread adoption and help accel
 
 ## Blog
 
+- [Node.js and io.js looking forward to reconciliation](https://github.com/iojs/io.js/issues/1664)
 - [Joyent CEO Scott Hammond looks forward to Node.js Foundation](https://www.joyent.com/blog/transitions)
 - [Node.js core contributor TJ Fontaine steps down, cheers the Node.js Foundation on](http://blog.nodejs.org/2015/05/08/next-chapter/)
 - [Mikeal Rogers on the importance of a foundation](https://medium.com/node-js-javascript/growing-up-27d6cc8b7c53)
