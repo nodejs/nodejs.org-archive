@@ -4,7 +4,7 @@ NODE_WEBSITE_PORT ?= 8080
 REMOTE_SHA = $(shell git ls-remote git@github.com:joyent/node-website.git | awk '/master/ {print $$1}')
 LOCAL_SHA = $(shell git rev-parse HEAD)
 
-generated_files1 = $(shell find doc -follow -type f -name \*.md | grep -v blog | xargs)
+generated_files1 = $(shell find doc -follow -type f -name \*.md | grep -v /blog/ | xargs)
 generated_files = $(addprefix out/,$(patsubst %.md,%.html,$(generated_files1)))
 
 website_dirs = \
