@@ -133,7 +133,7 @@ h3 a {
 }
 
 #nav ul {
-  width: 640px;
+  width: 720px;
   margin: 0 auto;
 }
 
@@ -894,4 +894,10 @@ table.logos img {
 table.addldownloads {
   font-size:14px;
   text-align: center;
+}
+
+.center {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
 }
