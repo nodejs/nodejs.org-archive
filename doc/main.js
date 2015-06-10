@@ -2,7 +2,7 @@
   var os = n.platform.match(/(Win|Mac|Linux)/);
   var x = n.userAgent.match(/x86_64|Win64|WOW64/) ||
           n.cpuClass === 'x64' ? 'x64' : 'x86';
-  var base = 'http://nodejs.org/dist/__VERSION__/';
+  var base = 'https://nodejs.org/dist/__VERSION__/';
   var href = 'node-__VERSION__.tar.gz';
   var db = d.getElementById('downloadbutton');
   var d2;
