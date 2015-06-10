@@ -910,6 +910,14 @@ table.addldownloads {
     padding-right: 20px;
   }
 
+  .blog #nav {
+    padding-top: 0;
+  }
+
+  .blog #nav #logo {
+    margin: 0 auto;
+  }
+
   .blog #nav ul {
     width: auto;
   }
@@ -941,6 +949,7 @@ table.addldownloads {
 
   .blog #footer ul {
     display: block;
+    float: none;
     width: 100%;
   }
 
