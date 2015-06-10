@@ -547,16 +547,24 @@ div.block:nth-of-type(4n) {
 
 #footer {
   height: 200px;
-  width: 800px;
+  width: 1140px;
   margin: 0 auto;
   padding: 30px 0 50px 0;
 }
 
 .foot-1 {
-  width: 800px;
+  width: 240px;
+  float: left;
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+
+.foot-2 {
+  width: 900px;
   margin-bottom: 50px;
   float: left;
   padding-left: 20px;
+  border-left: 1px solid rgba(255,255,255,.3);
 }
 
 #footer > a {
@@ -904,69 +912,135 @@ img.memberlogo {
 }
 
 @media (max-width: 768px) {
-  .blog #content {
+  #front #intro,
+  #front #intro p {
+    width: auto;
+  }
+
+  #front #promo img {
+    max-width: 100%;
+  }
+
+  #download #content {
+    width: auto;
+  }
+
+  #download #content td a {
+    display: inline;
+  }
+
+  #download #content ul {
+    margin-left: 1.5em;
+  }
+
+  #download table {
+    display: block;
+  }
+
+  #download tr {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  #download td {
+    display: block;
+    border: 0 !important;
+    text-align: left;
+  }
+
+  #download #installers {
+    width: 100%;
+  }
+
+  #download #installers ul {
+    width: auto;
+    display: block;
+  }
+
+  #download #installers li {
+    display: block;
+    width: 100%;
+  }
+
+  #docs #content,
+  #docs #column2,
+  #docs #column1,
+  #docs #column1.interior {
+    width: 100%;
+  }
+
+  #community #carousel {
+    display: none;
+  }
+
+  #content {
     width: auto;
     padding-left: 20px;
     padding-right: 20px;
   }
 
-  .blog #nav {
+  #nav {
     padding-top: 0;
   }
 
-  .blog #nav #logo {
+  #nav #logo {
     margin: 0 auto;
   }
 
-  .blog #nav ul {
+  #nav ul {
     width: auto;
   }
 
-  .blog #nav ul li {
+  #nav ul li {
     float: none;
     display: inline-block;
   }
 
-  .blog #nav ul li.active:after {
+  #nav ul li.active:after {
     border: 0;
   }
 
-  .blog .sh_sourceCode {
+  .sh_sourceCode {
     overflow: scroll;
   }
 
-  .blog #footer {
+  #footer {
+    width: auto;
+    overflow: hidden;
+  }
+
+  .foot-1 {
     width: auto;
   }
 
-  .blog .foot-1 {
+  .foot-2 {
     width: auto;
   }
 
-  .blog #footer ul {
+  #footer ul {
     display: block;
     float: none;
     width: 100%;
   }
 
-  .blog #footer ul li {
+  #footer ul li {
     float: left;
     padding: 0 15px
   }
 
-  .blog #content h1 + p {
+  #content h1 + p {
     font-size: 20px;
   }
 
-  .blog #content p {
+  #content p {
     font-size: 17px;
   }
 
-  .blog h1 {
+  h1 {
     font-size: 32px
   }
 
-  .blog #content ol, #column1.interior ul {
+  #content ol, #column1.interior ul {
     padding-left: 30px;
     padding-right: 30px;
   }
