@@ -901,3 +901,68 @@ table.addldownloads {
   margin-left: auto;
   display: block;
 }
+
+
+@media (max-width: 768px) {
+  .blog #content {
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .blog #nav ul {
+    width: auto;
+  }
+
+  .blog #nav ul li {
+    float: none;
+    display: inline-block;
+  }
+
+  .blog #nav ul li.active:after {
+    border: 0;
+  }
+
+  .blog .sh_sourceCode {
+    overflow: scroll;
+  }
+
+  .blog #footer {
+    width: auto;
+  }
+
+  .blog .foot-1 {
+    width: auto;
+  }
+
+  .blog .foot-2 {
+    width: auto;
+  }
+
+  .blog #footer ul {
+    display: block;
+    width: 100%;
+  }
+
+  .blog #footer ul li {
+    float: left;
+    padding: 0 15px
+  }
+
+  .blog #content h1 + p {
+    font-size: 20px;
+  }
+
+  .blog #content p {
+    font-size: 17px;
+  }
+
+  .blog h1 {
+    font-size: 32px
+  }
+
+  .blog #content ol, #column1.interior ul {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
