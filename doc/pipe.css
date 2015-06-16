@@ -1006,15 +1006,16 @@ img.memberlogo {
 
   #footer {
     width: auto;
+    height: auto;
     overflow: hidden;
+    padding: 30px 0 30px 0;
   }
 
-  .foot-1 {
-    width: auto;
-  }
-
+  .foot-1,
   .foot-2 {
     width: auto;
+    float: none;
+    margin-bottom: 0;
   }
 
   #footer ul {
