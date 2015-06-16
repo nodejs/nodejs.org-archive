@@ -13,7 +13,7 @@ website_dirs = \
 	out/doc/logos \
 	out/doc/images
 
-doc_images = $(addprefix out/,$(wildcard doc/images/* doc/*.jpg doc/*.png))
+doc_images = $(addprefix out/,$(wildcard doc/images/* doc/images/logos/* doc/*.jpg doc/*.png))
 website_assets = $(addprefix out/,$(wildcard doc/*.css doc/*.js))
 
 blog_dirs = $(patsubst out/doc/%,out/blog/%,$(website_dirs))
