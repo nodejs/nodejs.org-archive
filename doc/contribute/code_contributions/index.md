@@ -1,7 +1,7 @@
 # New Node.js Foundation Development Policy
 
 With the launch of the Node.js Foundation, the Node.js project has adopted
-new [Development Poliicies](https://github.com/nodejs/dev-policy). Much of
+new [Development Policies](https://github.com/nodejs/dev-policy). Much of
 the general information contained below is still valuable but may be out
 of date.
 
