@@ -29,7 +29,6 @@ can be found on the project's [Github profile](https://github.com/orgs/nodejs/pe
 * Jeremiah Senkpiel ([Fishrock123](https://github.com/Fishrock123))
 * Julien Gilli ([misterdjules](https://github.com/misterdjules))
 * Michael Dawson ([mhdawson](https://github.com/mhdawson))
-* Mikeal Rogers ([mikeal](https://github.com/mikeal))
 * Rod Vagg ([rvagg](https://github.com/rvagg))
 * Steven R Loomis ([srl295](https://github.com/srl295))
 * Trevor Norris ([trevnorris](https://github.com/trevnorris))

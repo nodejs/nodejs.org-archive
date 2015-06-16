@@ -8,7 +8,7 @@ For additional information about the Node.js Foundation, including questions abo
 <a href="mailto:info@nodejs.org?subject=Information">info@nodejs.org</a>.
 
 For questions about the use of the Node.js&reg; trademark, please send an
-email to <a href="mailto:trademark@nodejs.org?subject=Trademark">trademark@nodej.org</a>.
+email to <a href="mailto:trademark@nodejs.org?subject=Trademark">trademark@nodejs.org</a>.
 
 ## Overview
 
