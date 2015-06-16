@@ -1,0 +1,64 @@
+/*=====================
+LF Collaborative Projects Header and Footer
+=====================*/
+#lfcollabprojects-header,
+#lfcollabprojects-footer {
+  font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: 300;
+  color: #FFF;
+  background: #404042;
+  background-image: linear-gradient(right, #404042 0%, #3b393b 69%);
+  background-image: -o-linear-gradient(right, #404042 0%, #3b393b 69%);
+  background-image: -moz-linear-gradient(right, #404042 0%, #3b393b 69%);
+  background-image: -webkit-linear-gradient(right, #404042 0%, #3b393b 69%);
+  background-image: -ms-linear-gradient(right, #404042 0%, #3b393b 69%);
+  background-image: -webkit-gradient(linear, right top, left top, color-stop(0, #404042), color-stop(0.69, #3b393b));
+}
+#lfcollabprojects-header a,
+#lfcollabprojects-footer a {
+  color: #FFF;
+  text-decoration: underline;
+}
+#lfcollabprojects-header a:hover,
+#lfcollabprojects-footer a:hover {
+  color: #009144;
+  text-decoration: none;
+}
+#lfcollabprojects-header .gray-diagonal,
+#lfcollabprojects-footer .gray-diagonal {
+  min-height: 30px;
+  background: transparent url("di_dark_gray.png");
+  width: 100%;
+}
+#lfcollabprojects-header .header-inner,
+#lfcollabprojects-header .footer-inner,
+#lfcollabprojects-footer .header-inner,
+#lfcollabprojects-footer .footer-inner {
+  margin: 0 auto;
+  max-width: 950px;
+  position: relative;
+}
+#lfcollabprojects-header .footer-inner,
+#lfcollabprojects-footer .footer-inner {
+  padding: 16px 0;
+}
+#lfcollabprojects-header .footer-inner p,
+#lfcollabprojects-footer .footer-inner p {
+  margin: 0;
+}
+
+#lfcollabprojects-footer {
+  padding-left: 10px;
+}
+
+#lfcollabprojects-logo {
+  margin-top: 10px;
+  height: 14px;
+  background: transparent url("lfcollabprojects_logo_gray.png") no-repeat 10px center;
+  width: 100%;
+  max-width: 400px;
+  float: left;
+  text-indent: -9000px;
+}

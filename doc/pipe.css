@@ -546,6 +546,7 @@ div.block:nth-of-type(4n) {
 }
 
 #footer {
+  height: 200px;
   width: 1140px;
   margin: 0 auto;
   padding: 30px 0 50px 0;
@@ -902,6 +903,13 @@ table.addldownloads {
   display: block;
 }
 
+img.memberlogo {
+  vertical-align: middle;
+  width: 200px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
 
 @media (max-width: 768px) {
   .blog #content {

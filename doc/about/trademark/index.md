@@ -16,5 +16,9 @@ word about Node.js and participating in the Node.js community. Keeping that
 goal in mind, we’ve tried to make the policy as flexible and easy to understand
 as legally possible.
 
-Please read the [full policy](/images/trademark-policy.pdf). If you have any questions
-don't hesistate to [email us](mailto:trademark@joyent.com).
+Please read the [full policy](/images/foundation-trademark-policy.pdf).
+If you have any questions don't hesistate to
+[email us](mailto:trademark@nodejs.org).
+
+Guidelines for the visual display of the Node.js mark are described in
+the [Visual Guidelines](/images/foundation-visual-guidelines.pdf).

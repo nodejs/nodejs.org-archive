@@ -1,3 +1,10 @@
+# New Node.js Foundation Development Policy
+
+With the launch of the Node.js Foundation, the Node.js project has adopted
+new [Development Poliicies](https://github.com/nodejs/dev-policy). Much of
+the general information contained below is still valuable but may be out
+of date.
+
 # Code contributions
 
 ## Identifiying bugs to fix and features to contribute
@@ -43,7 +50,9 @@ which is ready for you to start exploring with your changes.
 The following projects are managed by the Node.js team and available for you to
 fork and contribute to.
 
- * [Node.js](https://github.com/joyent/node)
+ * [Node.js v0.10 and v0.12](https://github.com/joyent/node)
+ * [io.js](https://github.com/nodejs/io.js)
+ * [Node.js Next](https://github.com/nodejs/node)
  * [Node.js Website](https://github.com/joyent/node-website)
  * [http-parser](https://github.com/joyent/http-parser)
 

@@ -1,3 +1,16 @@
+
+# New Node.js Foundation Development Policy
+
+With the launch of the Node.js Foundation, the Node.js project has adopted
+new [Development Poliicies](https://github.com/nodejs/dev-policy) that
+supersede the older policy detailed below. Please refer to the new
+Development Policy for current details on the acceptance of contributions to
+the Node.js project.
+
+Much of the workflow documented here is still in use for the management of the
+[joyent/node](http://github.com/joyent/node) Node.js v0.10 and v0.12
+releases.
+
 # Code contributions' workflow
 
 ## Introduction

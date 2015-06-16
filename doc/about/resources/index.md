@@ -4,6 +4,9 @@
 
  Please review the [trademark policy](/about/trademark/) for information about permissible use of Node.js&reg; logos and marks.
 
+ Guidelines for the visual display of the Node.js mark are described in
+ the [Visual Guidelines](/images/foundation-visual-guidelines.pdf).
+
 <table border="0" cellspacing="0" cellpadding="10" class="logos">
   <tr>
     <td bgcolor="#FFFFFF">[![Node.js dark](/images/logos/nodejs.png)](/images/logos/nodejs-light.eps)</td>
