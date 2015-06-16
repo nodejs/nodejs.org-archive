@@ -29,7 +29,6 @@ LF Collaborative Projects Header and Footer
 #lfcollabprojects-header .gray-diagonal,
 #lfcollabprojects-footer .gray-diagonal {
   min-height: 30px;
-  background: transparent url("di_dark_gray.png");
   width: 100%;
 }
 #lfcollabprojects-header .header-inner,
