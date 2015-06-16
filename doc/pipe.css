@@ -553,13 +553,6 @@ div.block:nth-of-type(4n) {
 }
 
 .foot-1 {
-  width: 240px;
-  float: left;
-  padding-left: 30px;
-  padding-bottom: 20px;
-}
-
-.foot-2 {
   width: 900px;
   margin-bottom: 50px;
   float: left;
@@ -948,10 +941,6 @@ img.memberlogo {
   }
 
   .blog .foot-1 {
-    width: auto;
-  }
-
-  .blog .foot-2 {
     width: auto;
   }
 
