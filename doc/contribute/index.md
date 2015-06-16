@@ -21,7 +21,7 @@ information:
  * Architecture you're running on (32bit or 64bit and x86 or ARM)
 
 The Node.js project is currently managed across a number of separate
-Github repositories, each with their own separate Issues database. If
+Github repositories, each with their own separate issues database. If
 possible, please direct any issues you are reporting to the appropriate
 repository but don't worry if things happen to get put in the wrong place,
 the community of contributors will be more than happy to help get you
@@ -31,6 +31,7 @@ pointed in the right direction.
    [joyent/node](https://github.com/joyent/node/issues)
  * To report issues specific to io.js (any version), please use [nodejs/io.js](https://github.com/nodejs/io.js/issues)
  * To report issues specific to future Node.js releases, please use [nodejs/node](https://github.com/nodejs/node)
+ * To report issues specific to this website, please use [joyent/node-website](https://github.com/joyent/node-website/issues)
 
 ## Code contributions
 
