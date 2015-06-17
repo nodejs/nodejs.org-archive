@@ -547,17 +547,16 @@ div.block:nth-of-type(4n) {
 
 #footer {
   height: 200px;
-  width: 1140px;
+  width: 800px;
   margin: 0 auto;
   padding: 30px 0 50px 0;
 }
 
 .foot-1 {
-  width: 900px;
+  width: 800px;
   margin-bottom: 50px;
   float: left;
   padding-left: 20px;
-  border-left: 1px solid rgba(255,255,255,.3);
 }
 
 #footer > a {
