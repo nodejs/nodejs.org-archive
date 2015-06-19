@@ -1,5 +1,6 @@
 # Technical Steering Committee meetings
-
+* 2015-06-11
+  - [Minutes](2015-06-11/minutes.html)
 * 2015-05-21
   - [Minutes](2015-05-21/minutes.html)
 * 2015-05-07
