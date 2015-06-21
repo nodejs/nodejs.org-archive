@@ -20,13 +20,6 @@ blog_dirs = $(patsubst out/doc/%,out/blog/%,$(website_dirs))
 blog_assets = $(patsubst out/doc/%,out/blog/%,$(website_assets))
 blog_images = $(patsubst out/doc/%,out/blog/%,$(doc_images))
 
-advisory_board:
-	rm -rf /tmp/advisory-board
-	rm -rf ./doc/advisory-board
-	mkdir ./doc/advisory-board
-	git clone https://github.com/joyent/nodejs-advisory-board.git /tmp/advisory-board
-	mv /tmp/advisory-board/meetings/* ./doc/advisory-board
-
 website_files = \
 	out/doc/index.html    \
 	out/doc/v0.4_announcement.html   \
@@ -47,6 +40,13 @@ blog_files = \
 	$(blog_images)
 
 doc: website blog
+
+advisory_board:
+	rm -rf /tmp/advisory-board
+	rm -rf ./doc/advisory-board
+	mkdir ./doc/advisory-board
+	git clone https://github.com/joyent/nodejs-advisory-board.git /tmp/advisory-board
+	mv /tmp/advisory-board/meetings/* ./doc/advisory-board
 
 blogclean:
 	rm -rf out/blog
