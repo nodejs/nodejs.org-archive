@@ -22,7 +22,6 @@ localized sites here:
  * [Iran group in Persian](http://nodejs.ir)
  * [Israeli wiki](http://nodejs.co.il)
  * [Japan user group](http://nodejs.jp/)
- * [Korea Node.js community](http://nodejskr.org)
  * [Node.js site for Kiwis](http://nodejs.geek.nz/)
  * [Russian blog.](http://nodejs.ru/)
  * [Serbian Node.js community website](http://nodejs.rs/)
