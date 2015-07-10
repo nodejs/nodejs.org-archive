@@ -19,6 +19,7 @@ localized sites here:
  * [Chinese community](http://cnodejs.org)
  * [Google+ Community of Node.js French users](https://plus.google.com/communities/113346206415381691435)
  * [Hong Kong community](http://nodejs.hk)
+ * [Hungarian (Magyar) community](http://nodehun.blogspot.com/)
  * [Iran group in Persian](http://nodejs.ir)
  * [Israeli wiki](http://nodejs.co.il)
  * [Japan user group](http://nodejs.jp/)
