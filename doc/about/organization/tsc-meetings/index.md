@@ -2,6 +2,8 @@
 
 * 2015-06-18
   - [Minutes](2015-06-18/minutes.html)
+* 2015-06-11
+  - [Minutes](2015-06-11/minutes.html)
 * 2015-06-04
   - [Minutes](2015-06-04/minutes.html)
 * 2015-05-21
