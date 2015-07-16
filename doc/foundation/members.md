@@ -43,6 +43,9 @@ To request information on joining the Node.js Foundation, please email
 ## Silver
 
 <div style="text-align:center;">
+<a target="_new" href="http://apigee.com">
+  <img alt="Apigee" class="memberlogo" src="/images/logos/apigee_logo_md.png" />
+</a>
 <a target="_new" href="http://codefresh.io">
   <img alt="CodeFresh" class="memberlogo" src="/images/logos/codefreshLogo2.png" />
 </a>
