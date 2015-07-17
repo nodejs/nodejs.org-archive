@@ -2,14 +2,6 @@
 
 The Node.js Foundation's mission is to enable widespread adoption and help accelerate development of Node.js and other related modules though an open governance model that encourages participation, technical contribution, and a framework for long term stewardship by an ecosystem invested in Node.js' success.
 
-## Contact
-
-For additional information about the Node.js Foundation, including questions about becoming a member, please send an email to
-<a href="mailto:info@nodejs.org?subject=Information">info@nodejs.org</a>.
-
-For questions about the use of the Node.js&reg; trademark, please send an
-email to <a href="mailto:trademark@nodejs.org?subject=Trademark">trademark@nodejs.org</a>.
-
 ## Overview
 
 <iframe class='center' src="//www.slideshare.net/slideshow/embed_code/key/gmABh2vHJx5OcI"
@@ -53,3 +45,17 @@ email to <a href="mailto:trademark@nodejs.org?subject=Trademark">trademark@nodej
 - [By-laws](http://f.cl.ly/items/2R3W2h3M343O2Y101808/nodejs-foundation-bylaws-draft-2015-may05.pdf)
 - [Membership agreement](http://f.cl.ly/items/0N1m3x0I3S2L203M1h1r/nodejs-foundation-membership-agreement-2015-march-04.pdf)
 - [Certificate of incorporation](http://f.cl.ly/items/2b1b1o0v1e1u2i1L2w1a/nodejs-foundation-certificate-of-incorporation-2014-august-01.pdf)
+
+## Contact
+
+For questions about the use of the Node.js&reg; trademark, please send an
+email to <a href="mailto:trademark@nodejs.org?subject=Trademark">trademark@nodejs.org</a>.
+
+For additional information about the Node.js Foundation, including questions about becoming a member, please fill out the contact form below.
+
+<iframe class='center'
+ src="http://go.linuxfoundation.org/l/6342/2015-05-15/2cnz97"
+ frameborder="0" marginwidth="0" marginheight="0"
+ style="width:90%;height:600px;"
+ >
+</iframe>
