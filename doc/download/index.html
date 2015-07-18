@@ -40,239 +40,239 @@
         <li><a href="http://blog.nodejs.org">Blog</a></li>
       </ul>
     </div>
-<div id="content-wrap">
-<div id="content" class="clearfix">
+    <div id="content-wrap">
+    <div id="content" class="clearfix">
 
-  <div class="interior row">
-    <h1>Downloads</h1>
-    <p>
-      Download the Node.js source code or a pre-built installer for your platform, and start developing today.
-    </p>
-    <p>Current version: <b>__VERSION__</b></p>
-  </div>
+      <div class="interior row">
+        <h1>Downloads</h1>
+        <p>
+          Download the Node.js source code or a pre-built installer for your platform, and start developing today.
+        </p>
+        <p>Current version: <b>__VERSION__</b></p>
+      </div>
 
-  <div class="interior row">
-    <div id="installers">
-      <ul>
-        <li>
-          <a href="https://nodejs.org/dist/__VERSION__/node-__VERSION__-x86.msi">
-            <img src="https://nodejs.org/images/platform-icon-win.png"
-              height=50 width=45 alt="">
-            Windows Installer
-            <small>node-__VERSION__-x86.msi</small>
-          </a>
-        </li>
-        <li>
-          <a href="https://nodejs.org/dist/__VERSION__/node-__VERSION__.pkg">
-            <img src="https://nodejs.org/images/platform-icon-osx.png"
-              height=50 width=45 alt="">
-            Macintosh Installer
-            <small>node-__VERSION__.pkg</small>
-          </a>
-        </li>
-        <li id="source">
-          <a href="https://nodejs.org/dist/__VERSION__/node-__VERSION__.tar.gz">
-            <img src="https://nodejs.org/images/platform-icon-generic.png"
-              height=50 width=45 alt="">
-            Source Code
-            <small>node-__VERSION__.tar.gz</small>
-          </a>
-        </li>
+      <div class="interior row">
+        <div id="installers">
+          <ul>
+            <li>
+              <a href="https://nodejs.org/dist/__VERSION__/node-__VERSION__-x86.msi">
+                <img src="https://nodejs.org/images/platform-icon-win.png"
+                  height=50 width=45 alt="">
+                Windows Installer
+                <small>node-__VERSION__-x86.msi</small>
+              </a>
+            </li>
+            <li>
+              <a href="https://nodejs.org/dist/__VERSION__/node-__VERSION__.pkg">
+                <img src="https://nodejs.org/images/platform-icon-osx.png"
+                  height=50 width=45 alt="">
+                Macintosh Installer
+                <small>node-__VERSION__.pkg</small>
+              </a>
+            </li>
+            <li id="source">
+              <a href="https://nodejs.org/dist/__VERSION__/node-__VERSION__.tar.gz">
+                <img src="https://nodejs.org/images/platform-icon-generic.png"
+                  height=50 width=45 alt="">
+                Source Code
+                <small>node-__VERSION__.tar.gz</small>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <table style="font-size:14px">
+          <tr>
+            <th>Windows Installer (.msi)</th>
+            <td><a href="https://nodejs.org/dist/__VERSION__/node-__VERSION__-x86.msi">32-bit</a></td>
+            <td><a href="https://nodejs.org/dist/__VERSION__/x64/node-__VERSION__-x64.msi">64-bit</a></td>
+          </tr>
+
+          <tr>
+            <th>Windows Binary (.exe)</th>
+            <td><a href="https://nodejs.org/dist/__VERSION__/node.exe">32-bit</a></td>
+            <td><a href="https://nodejs.org/dist/__VERSION__/x64/node.exe">64-bit</a></td>
+          </tr>
+
+          <tr>
+            <th>Mac OS X Installer (.pkg)</th>
+            <td colspan=2><a href="https://nodejs.org/dist/__VERSION__/node-__VERSION__.pkg">Universal</a></td>
+          </tr>
+
+          <tr>
+            <th>Mac OS X Binaries (.tar.gz)</th>
+            <td><a href="https://nodejs.org/dist/__VERSION__/node-__VERSION__-darwin-x86.tar.gz">32-bit</a></td>
+            <td><a href="https://nodejs.org/dist/__VERSION__/node-__VERSION__-darwin-x64.tar.gz">64-bit</a></td>
+          </tr>
+
+          <!-- TODO Uncomment when we have these
+          <tr>
+            <th>Linux Installer (.deb)</th>
+            <td><a href="https://nodejs.org/dist/__VERSION__/node-__VERSION__-linux-x86.deb">32-bit</a></td>
+            <td><a href="https://nodejs.org/dist/__VERSION__/node-__VERSION__-linux-x64.deb">64-bit</a></td>
+          </tr>
+
+          <tr>
+            <th>Linux Installer (.rpm)</th>
+            <td><a href="https://nodejs.org/dist/__VERSION__/node-__VERSION__-linux-x86.rpm">32-bit</a></td>
+            <td><a href="https://nodejs.org/dist/__VERSION__/node-__VERSION__-linux-x64.rpm">64-bit</a></td>
+          </tr>
+          -->
+
+          <tr>
+            <th>Linux Binaries (.tar.gz)</th>
+            <td><a href="https://nodejs.org/dist/__VERSION__/node-__VERSION__-linux-x86.tar.gz">32-bit</a></td>
+            <td><a href="https://nodejs.org/dist/__VERSION__/node-__VERSION__-linux-x64.tar.gz">64-bit</a></td>
+          </tr>
+
+          <tr>
+            <th>SunOS Binaries (.tar.gz)</th>
+            <td><a href="https://nodejs.org/dist/__VERSION__/node-__VERSION__-sunos-x86.tar.gz">32-bit</a></td>
+            <td><a href="https://nodejs.org/dist/__VERSION__/node-__VERSION__-sunos-x64.tar.gz">64-bit</a></td>
+          </tr>
+
+          <tr>
+            <th>Source Code</th>
+            <td colspan=2>
+              <a href="https://nodejs.org/dist/__VERSION__/node-__VERSION__.tar.gz">node-__VERSION__.tar.gz</a>
+            </td>
+          </tr>
+        </table>
+        <p>
+          Note: Python 2.6 or 2.7 is required to build from source tarballs.
+        </p>
+
+        <h2 style="margin-top:1em" id="iojs">io.js</h2>
+        <p>
+          In May 2015, the <a href="http://iojs.org">io.js</a> project TSC
+          voted to join the Node.js Foundation and merge back with Node.js.
+          While the project streams are being
+          <a href="https://github.com/nodejs/node">converged</a>,
+          io.js releases will continue in parallel and can be downloaded
+          <a href="http://iojs.org">here</a>.
+        </p>
+
+        <h2 style="margin-top:1em" id=other-info>Other Info</h2>
+        <ul>
+          <li><a href="https://nodejs.org/dist/__VERSION__/SHASUMS.txt.asc">Shasums</a></li>
+          <li><a href="https://raw.github.com/joyent/node/__VERSION__/ChangeLog">Change Log</a></li>
+
+          <li><a href="http://nodejs.org/docs/__VERSION__/api/">Documentation</a></li>
+
+          <li><a href="https://github.com/joyent/node">Git Repository</a></li>
+          <li><a href="https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager">Installing from package managers</a>
+
+          <li><a href="https://nodejs.org/dist/__VERSION__">Other release files</a></li>
+          <li><a href="https://nodejs.org/dist/">Other releases</a></li>
       </ul>
+      </div>
+
+      <div class="interior row">
+        <h2 id="license">License</h2>
+        <p>
+          Node.js is released under the MIT
+          license, and bundles other liberally licensed OSS components.
+        <a
+          href="https://raw.github.com/joyent/node/master/LICENSE">Download the license</a></p>
+      </div>
+
+      <div class="interior row">
+        <h2 id="additional">Additional Platforms</h2>
+        <p>
+          Members of the Node.js community maintain unofficial builds of Node.js for
+          additional platforms. Note that such builds are not supported by the
+          Node.js core team and may not yet be at the same build level as current
+          Node.js release.
+        </p>
+        <p>
+          <table class="addldownloads">
+            <tr>
+              <th>Platform</th>
+              <th>Provider</th>
+              <th></th>
+            </tr>
+            <tr>
+              <th>AIX on Power Systems</th>
+              <td>IBM</td>
+              <td><a href="http://www.ibm.com/developerworks/web/nodesdk/">Download</a></td>
+            </tr>
+            <tr>
+              <th>Linux on Power Systems</th>
+              <td>IBM</td>
+              <td><a href="http://www.ibm.com/developerworks/web/nodesdk/">Download</a></td>
+            </tr>
+            <tr>
+              <th>Linux on System z</th>
+              <td>IBM</td>
+              <td><a href="http://www.ibm.com/developerworks/web/nodesdk/">Download</a></td>
+            </tr>
+          </table>
+        </p>
+      </div>
+
+    </div>
     </div>
 
-    <table style="font-size:14px">
-      <tr>
-        <th>Windows Installer (.msi)</th>
-        <td><a href="https://nodejs.org/dist/__VERSION__/node-__VERSION__-x86.msi">32-bit</a></td>
-        <td><a href="https://nodejs.org/dist/__VERSION__/x64/node-__VERSION__-x64.msi">64-bit</a></td>
-      </tr>
-
-      <tr>
-        <th>Windows Binary (.exe)</th>
-        <td><a href="https://nodejs.org/dist/__VERSION__/node.exe">32-bit</a></td>
-        <td><a href="https://nodejs.org/dist/__VERSION__/x64/node.exe">64-bit</a></td>
-      </tr>
-
-      <tr>
-        <th>Mac OS X Installer (.pkg)</th>
-        <td colspan=2><a href="https://nodejs.org/dist/__VERSION__/node-__VERSION__.pkg">Universal</a></td>
-      </tr>
-
-      <tr>
-        <th>Mac OS X Binaries (.tar.gz)</th>
-        <td><a href="https://nodejs.org/dist/__VERSION__/node-__VERSION__-darwin-x86.tar.gz">32-bit</a></td>
-        <td><a href="https://nodejs.org/dist/__VERSION__/node-__VERSION__-darwin-x64.tar.gz">64-bit</a></td>
-      </tr>
-
-      <!-- TODO Uncomment when we have these
-      <tr>
-        <th>Linux Installer (.deb)</th>
-        <td><a href="https://nodejs.org/dist/__VERSION__/node-__VERSION__-linux-x86.deb">32-bit</a></td>
-        <td><a href="https://nodejs.org/dist/__VERSION__/node-__VERSION__-linux-x64.deb">64-bit</a></td>
-      </tr>
-
-      <tr>
-        <th>Linux Installer (.rpm)</th>
-        <td><a href="https://nodejs.org/dist/__VERSION__/node-__VERSION__-linux-x86.rpm">32-bit</a></td>
-        <td><a href="https://nodejs.org/dist/__VERSION__/node-__VERSION__-linux-x64.rpm">64-bit</a></td>
-      </tr>
-      -->
-
-      <tr>
-        <th>Linux Binaries (.tar.gz)</th>
-        <td><a href="https://nodejs.org/dist/__VERSION__/node-__VERSION__-linux-x86.tar.gz">32-bit</a></td>
-        <td><a href="https://nodejs.org/dist/__VERSION__/node-__VERSION__-linux-x64.tar.gz">64-bit</a></td>
-      </tr>
-
-      <tr>
-        <th>SunOS Binaries (.tar.gz)</th>
-        <td><a href="https://nodejs.org/dist/__VERSION__/node-__VERSION__-sunos-x86.tar.gz">32-bit</a></td>
-        <td><a href="https://nodejs.org/dist/__VERSION__/node-__VERSION__-sunos-x64.tar.gz">64-bit</a></td>
-      </tr>
-
-      <tr>
-        <th>Source Code</th>
-        <td colspan=2>
-          <a href="https://nodejs.org/dist/__VERSION__/node-__VERSION__.tar.gz">node-__VERSION__.tar.gz</a>
-        </td>
-      </tr>
-    </table>
-    <p>
-      Note: Python 2.6 or 2.7 is required to build from source tarballs.
-    </p>
-
-    <h2 style="margin-top:1em" id="iojs">io.js</h2>
-    <p>
-      In May 2015, the <a href="http://iojs.org">io.js</a> project TSC
-      voted to join the Node.js Foundation and merge back with Node.js.
-      While the project streams are being
-      <a href="https://github.com/nodejs/node">converged</a>,
-      io.js releases will continue in parallel and can be downloaded
-      <a href="http://iojs.org">here</a>.
-    </p>
-
-    <h2 style="margin-top:1em" id=other-info>Other Info</h2>
-    <ul>
-      <li><a href="https://nodejs.org/dist/__VERSION__/SHASUMS.txt.asc">Shasums</a></li>
-      <li><a href="https://raw.github.com/joyent/node/__VERSION__/ChangeLog">Change Log</a></li>
-
-      <li><a href="http://nodejs.org/docs/__VERSION__/api/">Documentation</a></li>
-
-      <li><a href="https://github.com/joyent/node">Git Repository</a></li>
-      <li><a href="https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager">Installing from package managers</a>
-
-      <li><a href="https://nodejs.org/dist/__VERSION__">Other release files</a></li>
-      <li><a href="https://nodejs.org/dist/">Other releases</a></li>
-  </ul>
-  </div>
-
-  <div class="interior row">
-    <h2 id="license">License</h2>
-    <p>
-      Node.js is released under the MIT
-      license, and bundles other liberally licensed OSS components.
-    <a
-      href="https://raw.github.com/joyent/node/master/LICENSE">Download the license</a></p>
-  </div>
-
-  <div class="interior row">
-    <h2 id="additional">Additional Platforms</h2>
-    <p>
-      Members of the Node.js community maintain unofficial builds of Node.js for
-      additional platforms. Note that such builds are not supported by the
-      Node.js core team and may not yet be at the same build level as current
-      Node.js release.
-    </p>
-    <p>
-      <table class="addldownloads">
-        <tr>
-          <th>Platform</th>
-          <th>Provider</th>
-          <th></th>
-        </tr>
-        <tr>
-          <th>AIX on Power Systems</th>
-          <td>IBM</td>
-          <td><a href="http://www.ibm.com/developerworks/web/nodesdk/">Download</a></td>
-        </tr>
-        <tr>
-          <th>Linux on Power Systems</th>
-          <td>IBM</td>
-          <td><a href="http://www.ibm.com/developerworks/web/nodesdk/">Download</a></td>
-        </tr>
-        <tr>
-          <th>Linux on System z</th>
-          <td>IBM</td>
-          <td><a href="http://www.ibm.com/developerworks/web/nodesdk/">Download</a></td>
-        </tr>
-      </table>
-    </p>
-  </div>
-
-</div>
-</div>
-
-<div class="foot-wrap">
-<div id="footer">
-  <div class="foot-1">
-    <div class="foot-nav">
-      <ul>
-        <li><a href="/download">Downloads</a></li>
-      </ul>
-      <ul>
-        <li><a href="/documentation/">Documentation</a></li>
-        <li><a href="/api/">API Docs</a></li>
-        <li><a href="/documentation/tutorials/">Tutorials</a></li>
-        <li><a href="/documentation/localization/">Localization</a></li>
-      </ul>
-      <ul>
-        <li><a href="http://nodejs.org/contribute/">Contribute</a></li>
-        <li><a href="http://nodejs.org/contribute/code_contributions/">Code contributions</a></li>
-      </ul>
-      <ul>
-        <li><a href="/foundation/">Foundation</a></li>
-        <li><a href="/foundation/members.html">Members</a></li>
-        <li><a href="/foundation/blog.html">Blog</a></li>
-      </ul>
-      <ul>
-        <li><a href="/documentation/">Documentation</a></li>
-        <li><a href="https://npmjs.org">Modules</a></li>
-        <li><a href="/about/organization/">Organization</a></li>
-      </ul>
-      <ul>
-        <li><a href="/about/resources/">Resources</a></li>
-        <li><a href="/about/trademark/">Trademark</a></li>
-        <li><a href="https://groups.google.com/forum/#!forum/nodejs">Mailing List</a></li>
-      </ul>
-      <ul>
-        <li><a href="http://blog.nodejs.org">Blog</a></li>
-      </ul>
+    <div class="foot-wrap">
+    <div id="footer">
+      <div class="foot-1">
+        <div class="foot-nav">
+          <ul>
+            <li><a href="/download">Downloads</a></li>
+          </ul>
+          <ul>
+            <li><a href="/documentation/">Documentation</a></li>
+            <li><a href="/api/">API Docs</a></li>
+            <li><a href="/documentation/tutorials/">Tutorials</a></li>
+            <li><a href="/documentation/localization/">Localization</a></li>
+          </ul>
+          <ul>
+            <li><a href="http://nodejs.org/contribute/">Contribute</a></li>
+            <li><a href="http://nodejs.org/contribute/code_contributions/">Code contributions</a></li>
+          </ul>
+          <ul>
+            <li><a href="/foundation/">Foundation</a></li>
+            <li><a href="/foundation/members.html">Members</a></li>
+            <li><a href="/foundation/blog.html">Blog</a></li>
+          </ul>
+          <ul>
+            <li><a href="/documentation/">Documentation</a></li>
+            <li><a href="https://npmjs.org">Modules</a></li>
+            <li><a href="/about/organization/">Organization</a></li>
+          </ul>
+          <ul>
+            <li><a href="/about/resources/">Resources</a></li>
+            <li><a href="/about/trademark/">Trademark</a></li>
+            <li><a href="https://groups.google.com/forum/#!forum/nodejs">Mailing List</a></li>
+          </ul>
+          <ul>
+            <li><a href="http://blog.nodejs.org">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+      </div>
     </div>
-  </div>
-  </div>
-</div>
 
-<div id="lfcollabprojects-footer">
-  <div class="gray-diagonal">
-    <div class="footer-inner">
-      <p>&copy; 2015 Node.js Foundation. All Rights Reserved. Portions of
-      this site originally &copy; 2015 Joyent. </p>
-      <p>Linux Foundation is a registered trademark of The Linux Foundation.</p>
-      <p>Node.js is a <a href="/images/foundation-trademark-policy.pdf">trademark</a>
-      of Joyent, Inc. and is used with its permission.
-      <a href="https://raw.github.com/joyent/node/master/LICENSE">View
-      license</a>.</p>
-      <p>Linux is a registered <a href="http://www.linuxfoundation.org/programs/legal/trademark" title="Linux Mark Institute">trademark</a> of Linus Torvalds.</p>
+    <div id="lfcollabprojects-footer">
+      <div class="gray-diagonal">
+        <div class="footer-inner">
+          <p>&copy; 2015 Node.js Foundation. All Rights Reserved. Portions of
+          this site originally &copy; 2015 Joyent. </p>
+          <p>Linux Foundation is a registered trademark of The Linux Foundation.</p>
+          <p>Node.js is a <a href="/images/foundation-trademark-policy.pdf">trademark</a>
+          of Joyent, Inc. and is used with its permission.
+          <a href="https://raw.github.com/joyent/node/master/LICENSE">View
+          license</a>.</p>
+          <p>Linux is a registered <a href="http://www.linuxfoundation.org/programs/legal/trademark" title="Linux Mark Institute">trademark</a> of Linus Torvalds.</p>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-<script src="/sh_main.js"></script>
-<script src="/sh_javascript.min.js"></script>
-<script>highlight(undefined, undefined, 'pre');</script>
-
-
+    <script src="/sh_main.js"></script>
+    <script src="/sh_javascript.min.js"></script>
+    <script>if (window.highlight) { highlight(undefined, undefined, 'pre'); }</script>
 
     <script src="/tracking.js"></script>
     <script src="/main.js"></script>
+  </body>
+</html>
