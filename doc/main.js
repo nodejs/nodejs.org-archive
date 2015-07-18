@@ -1,11 +1,13 @@
-;(function(d,n) {
+;(function (d, n) {
   var os = n.platform.match(/(Win|Mac|Linux)/);
   var x = n.userAgent.match(/x86_64|Win64|WOW64/) ||
           n.cpuClass === 'x64' ? 'x64' : 'x86';
   var base = 'https://nodejs.org/dist/__VERSION__/';
   var href = 'node-__VERSION__.tar.gz';
   var db = d.getElementById('downloadbutton');
+  if (!db) { return; }
   var d2;
+
   switch (os && os[1]) {
     case 'Mac':
       href = 'node-__VERSION__.pkg';
@@ -30,6 +32,7 @@
 
   db.href = base + href;
   // if there's one download option, then download it at #download
-  if (location.hash === '#download' && !d2)
+  if (location.hash === '#download' && !d2) {
     location.replace(b.href);
-})(document,navigator);
+  }
+})(document, navigator);
