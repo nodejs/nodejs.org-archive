@@ -42,7 +42,7 @@ The Node.js Foundation's mission is to enable widespread adoption and help accel
 
 - [Technical steering committee (TSC) charter](https://github.com/joyent/nodejs-advisory-board/blob/master/governance-proposal/TSC-Charter-Draft.md)
 - [Governance docs](https://github.com/joyent/nodejs-advisory-board/tree/master/governance-proposal)
-- [By-laws](http://f.cl.ly/items/2R3W2h3M343O2Y101808/nodejs-foundation-bylaws-draft-2015-may05.pdf)
+- [By-laws](/images/node-foundation-by-laws.pdf)
 - [Membership agreement](http://f.cl.ly/items/0N1m3x0I3S2L203M1h1r/nodejs-foundation-membership-agreement-2015-march-04.pdf)
 - [Certificate of incorporation](http://f.cl.ly/items/2b1b1o0v1e1u2i1L2w1a/nodejs-foundation-certificate-of-incorporation-2014-august-01.pdf)
 
