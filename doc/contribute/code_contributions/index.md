@@ -50,9 +50,7 @@ which is ready for you to start exploring with your changes.
 The following projects are managed by the Node.js team and available for you to
 fork and contribute to.
 
- * [Node.js v0.10 and v0.12](https://github.com/joyent/node)
- * [io.js](https://github.com/nodejs/io.js)
- * [Node.js Next](https://github.com/nodejs/node)
+ * [Node.js (all versions)](https://github.com/nodejs/node)
  * [Node.js Website](https://github.com/joyent/node-website)
  * [http-parser](https://github.com/joyent/http-parser)
 
@@ -70,7 +68,7 @@ upstream repository as a remote that you'll be able to use to refresh your
 version and stay in sync while working on your changes.
 
 ```
-$ git remote add upstream git://github.com/joyent/node.git
+$ git remote add upstream git://github.com/nodejs/node.git
 $ git fetch upstream
 ```
 
