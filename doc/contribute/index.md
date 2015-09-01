@@ -27,10 +27,8 @@ repository but don't worry if things happen to get put in the wrong place,
 the community of contributors will be more than happy to help get you
 pointed in the right direction.
 
- * To report issues specific to Node.js v0.10.x or v0.12.x, please use
-   [joyent/node](https://github.com/joyent/node/issues)
- * To report issues specific to io.js (any version), please use [nodejs/io.js](https://github.com/nodejs/io.js/issues)
- * To report issues specific to future Node.js releases, please use [nodejs/node](https://github.com/nodejs/node)
+ * To report issues about Node.js (any version), please use
+   [nodejs/node](https://github.com/nodejs/node/issues)
  * To report issues specific to this website, please use [joyent/node-website](https://github.com/joyent/node-website/issues)
 
 ## Code contributions

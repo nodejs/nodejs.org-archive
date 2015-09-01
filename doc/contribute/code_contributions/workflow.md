@@ -60,7 +60,7 @@ followed exactly as they are outlined.
 
 ### Ideal life cycle of a GitHub issue
 
-1. A new issue is filed against the joyent/node issues tracker.
+1. A new issue is filed against the nodejs/node issues tracker.
 
 2. This issue is picked up by a contributor. She assigns the issue to herself if
 she's a collaborator, or leaves it unassigned.
