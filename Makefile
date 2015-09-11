@@ -60,7 +60,7 @@ website: $(website_dirs) $(website_files)
 
 out/doc/%.html: doc/%.md
 	mkdir -p $(shell dirname $@)
-	node tools/doc/generate.js --format=html --template=doc/website.html $< > $@
+	node-doc-generator --format=html --template=doc/website.html $< > $@
 
 $(website_dirs):
 	mkdir -p $@
@@ -96,6 +96,7 @@ docclean:
 	-rm -rf out/doc
 
 predeploycheck:
+	@npm i
 ifneq ($(REMOTE_SHA),$(LOCAL_SHA))
 	@echo "remote repository and local repository not up to date... please pull latest master"
 	exit 1
